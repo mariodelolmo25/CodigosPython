@@ -1,2 +1,2 @@
 # ProgramasPython
-Aquí se guardan mis códigos de Python 3 ordenado por acrpetas según su uso.
+Aquí se guardan mis códigos de Python 3 ordenado por carpetas según su uso.
