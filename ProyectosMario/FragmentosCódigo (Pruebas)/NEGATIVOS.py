@@ -14,5 +14,4 @@ if numero1 < 0:
 if numero2 < 0:
   numero2 = print(f"({numero2})")
 
-
 print ("\t""fin")
