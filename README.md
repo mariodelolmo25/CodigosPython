@@ -4,8 +4,9 @@ Es posible modificar cada aspecto del código "on the fly" con los permisos corr
 Los códigos no están optimizados para su sencillez, es posible que se pueda acortar utilizando otros métodos.
 El intérprete que utilizo es repl.it en Google Chrome, aunque también la herramienta offline de "SublimeText 3"
 
-Carpetas:
-* Proyectos Clase
-* Proyectos Mario
+Carpeta | Descripción
+------- | -----------
+Proyectos Clase | Aquí se agrupan los códigos ordenados en clase
+Proyectos Mario | Aquí se agrupan los códigos hechos por mi cuenta propia
 
 Contacto: _mariodelolmo25@gmail.com_
