@@ -3,8 +3,10 @@
 <p>Es posible modificar cada aspecto del código "on the fly" con los permisos correspondientes.</p>
 <p>Los códigos no están optimizados para su sencillez, es posible que se pueda acortar utilizando otros métodos.</p>
 <p>Intérpretes que utilizo:</p>
-* Repl.it
-* SublimeText 3
+<ol>
+ <li>Repl.it</li>
+ <li>SublimeText 3</li>
+ </ol>
 
 **Carpeta** | **Descripción**
 ----------- | -------------
