@@ -11,8 +11,8 @@
 
 **Carpeta** | **Descripción**
 ----------- | -------------
-Proyectos Clase | Aquí se agrupan los códigos ordenados en clase
-Proyectos Mario | Aquí se agrupan los códigos hechos por mi cuenta propia
+Proyectos Clase | Aquí se agrupan los códigos ordenados en clase.
+Proyectos Mario | Aquí se agrupan los códigos hechos por mi cuenta propia.
  -> Fragmentos Código | Aquí se ubican programas sin ninguna utilidad, solo para pruebas.
 
 Contacto: _mariodelolmo25@gmail.com_
@@ -30,8 +30,8 @@ Contacto: _mariodelolmo25@gmail.com_
 
 **Folder** | **Description**
 ----------- | -------------
-Proyectos Clase | Projects made in classroom
-Proyectos Mario | Programs made by myself
+Proyectos Clase | Projects made in classroom.
+Proyectos Mario | Programs made by myself.
  -> Fragmentos Código | Programs with no utility, just to test things.
 
 Contact: _mariodelolmo25@gmail.com_
