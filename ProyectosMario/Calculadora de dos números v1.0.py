@@ -1,6 +1,10 @@
+#NOTAS DE VERSIÓN 1.1:
+  #Línea 77: ahora divide entre numero2div. Antes entre numero2
+
+
 # _-_ coding: utf8 _-_
 #__INICIO
-print("Bienvenido a la calculadora de dos valores. Versión: 1.0")
+print("Bienvenido a la calculadora de dos valores. Versión: 1.1")
 #Input números
 numero1 = float(input("Introducir primer valor: "))
 numero2 = float(input("Introducir el segundo valor: "))
@@ -70,4 +74,4 @@ if numero2 == 0:
   print ("ADVERTENCIA: No se puede dividir entre 0\n")
 else:
   print("\t" "División:", numero1, "/", numero2, "=", formatDivisión)
-  print("\t""División entera:", numero1, "//", numero2, "=", numero1 // numero2div)
+  print("\t""División entera:", numero1, "//", numero2, "=", numero1 // numero2)
