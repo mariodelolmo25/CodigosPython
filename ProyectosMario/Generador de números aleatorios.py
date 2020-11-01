@@ -39,4 +39,4 @@ while True:
   if segundero > duracion:
     print ("") #intro
     print ("\t""Fin de la instrucción")
-    break #Finaliza el bucle, en consecuencia el programa.
+    break # Finaliza el bucle, en consecuencia el programa.
