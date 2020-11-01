@@ -1,8 +1,8 @@
-# Programas Python (main)
-En este repositorio de guardan todos mis códigos de Python 3 ordenado por carpetas según su uso.
-Es posible modificar cada aspecto del código "on the fly" con los permisos correspondientes.
-Los códigos no están optimizados para su sencillez, es posible que se pueda acortar utilizando otros métodos.
-Intérpretes que utilizo:
+<h1>Programas Python (main)</h1>
+<p>En este repositorio de guardan todos mis códigos de Python 3 ordenado por carpetas según su uso.</p>
+<p>Es posible modificar cada aspecto del código "on the fly" con los permisos correspondientes.</p>
+<p>Los códigos no están optimizados para su sencillez, es posible que se pueda acortar utilizando otros métodos.</p>
+<p>Intérpretes que utilizo:</p>
 * Repl.it
 * SublimeText 3
 
