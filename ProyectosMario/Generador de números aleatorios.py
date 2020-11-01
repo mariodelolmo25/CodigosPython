@@ -31,7 +31,7 @@ print ("") #intro
 def aleatoridad():
   numeroRango = random.randint( inicio, fin )
   print (numeroRango, "\t(",segundero,"/",duracion,"seg.)")
-#Contador de tiempo
+# Contador de tiempo
 while True:
   aleatoridad()
   segundero += 1
