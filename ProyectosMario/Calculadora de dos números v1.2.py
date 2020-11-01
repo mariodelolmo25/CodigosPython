@@ -28,10 +28,7 @@ def comprobaciónNúmeros():
   if numero1Raw > numero2Raw:
     print(f"\tEl primer número es mayor al primero, tenlo en cuenta para la división entera.""\n")
 comprobaciónNúmeros()
-if numero2Raw == 0:
-  numero2div = 1
-else:
-  numero2div = numero2Raw 
+numero2div = 1 if numero2Raw == 0 else numero2Raw
 print ("") #intro
 print (f"Valores introducidos (por orden): ({numero1Raw}); ({numero2Raw})")
 comprobación = (f"Valores introducidos (por orden): {(numero1Raw)}; {(numero2Raw)}")
