@@ -2,10 +2,11 @@
 En este repositorio de guardan todos mis códigos de Python 3 ordenado por carpetas según su uso.
 Es posible modificar cada aspecto del código "on the fly" con los permisos correspondientes.
 Los códigos no están optimizados para su sencillez, es posible que se pueda acortar utilizando otros métodos.
+'''
 Intérpretes que utilizo:
 * Repl.it
 * SublimeText 3
-
+'''
 **Carpeta** | **Descripción**
 ----------- | -------------
 Proyectos Clase | Aquí se agrupan los códigos ordenados en clase
