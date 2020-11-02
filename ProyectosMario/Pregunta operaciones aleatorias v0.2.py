@@ -1,7 +1,7 @@
 #_-_ coding: utf8 _-_
 #__INICIO
   #Autor e imports
-print ("Autor: Mario del Olmo [Versión: 0.1]\n")
+print ("Autor: Mario del Olmo [Versión: 0.2]\n")
 print ("Bienvenido al programa de cálculo.\n")
 
 import random
@@ -83,48 +83,85 @@ def numerosAleatorios(): # Funcion que da valor aleatorio a los operandos.
   global segundos
   num1Raw = random.randint( inicioRango, finalRango )
   num2Raw = random.randint( inicioRango, finalRango )
-numerosAleatorios()
-    # SUMA
-def sumaComprobacion():
-  global conteo
-  global resultado
-  global respuesta
-  global aciertos
-  global fallos
-  global nota
-  conteo += 1
-  resultado = num1Raw + num2Raw
-  respuesta = int(input (f"\t\n{(num1Raw)} + {(num2Raw)} = "))
-  if respuesta == resultado:
-    print (Fore.GREEN + "Correcto" + Fore.RESET)
-    aciertos += 1
-  else: 
-    print (Fore.RED + "Incorrecto" + Fore.RESET)
-    fallos += 1
-sumaComprobacion()
+if inicio == 1:
+  numerosAleatorios()
+
 
 while aciertos < 10:
-  numerosAleatorios()
-  sumaComprobacion()
-if aciertos == 10:
-  nota = int(((aciertos - fallos) / conteo) * 10)
-  nota = format(nota, ".2f")
-  print ("") #intro
-  print ("Fin de la partida")
-  print ("Aciertos:", aciertos)
-  print ("Fallos:", fallos)
-  print ("Nota:", nota)
-  print ("Tiempo:", segundos, "seg.")
+  def suma(): #SUMA
+    global conteo
+    global resultado
+    global respuesta
+    global aciertos
+    global fallos
+    resultado = num1Raw + num2Raw
+    respuesta = int(input (f"\t\n{(num1Raw)} + {(num2Raw)} = "))
+    if respuesta == resultado:
+      print (Fore.GREEN + "Correcto" + Fore.RESET)
+      aciertos += 1
+    else: 
+      print (Fore.RED + "Incorrecto" + Fore.RESET)
+      fallos += 1
+  suma()
 
-''' No funciona y crashea el programa
+  def resta(): #RESTA
+    global conteo
+    global resultado
+    global respuesta
+    global aciertos
+    global fallos
+    print ("RESTA")
+    conteo += 1
+    resultado = num1Raw - num2Raw
+    respuesta = int(input (f"\t\n{(num1Raw)} - {(num2Raw)} = "))
+    if respuesta == resultado:
+      print (Fore.GREEN + "Correcto" + Fore.RESET)
+      aciertos += 1
+    else: 
+      print (Fore.RED + "Incorrecto" + Fore.RESET)
+      fallos += 1
+  resta()
+
+  def multi(): #MULTIPLICACIÓN
+    global conteo
+    global resultado
+    global respuesta
+    global aciertos
+    global fallos
+    print ("MULTI")
+    conteo += 1
+    resultado = num1Raw * num2Raw
+    respuesta = int(input (f"\t\n{(num1Raw)} x {(num2Raw)} = "))
+    if respuesta == resultado:
+      print (Fore.GREEN + "Correcto" + Fore.RESET)
+      aciertos += 1
+    else: 
+      print (Fore.RED + "Incorrecto" + Fore.RESET)
+      fallos += 1
+  multi()
+
 while inicio == 1:
   segundos += 1
   time.sleep(1)
+nota = int(((aciertos - fallos) / conteo) * 10)
+nota = format(nota, ".2f")
+print ("") #intro
+print ("Fin de la partida")
+print ("Aciertos:", aciertos)
+print ("Fallos:", fallos)
+print ("Nota:", nota)
+print ("Tiempo:", segundos, "seg.")
+
+# Intentar separar los def del bucle while:
 '''
-
-
-
-
+  while aciertos < 10:
+    suma()
+    resta()
+    multi()
+        o
+    random.choice (suma(), resta(), multi()) 
+iMPEDIR QUE CRASHEE SI EL USUARIO PONE RESULTADO 0
+'''
 
 
 # OBJETIVOS DE LA VERSION 1.0:
