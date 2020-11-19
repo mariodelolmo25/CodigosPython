@@ -1,5 +1,5 @@
 import time
-num = int(input("Escribe algo y te diré si es un entero: ")) #Pregunta
+num = int(input("Escribe algo y te diré si es par o impar: ")) #Pregunta
 y = num / 2
 if y == int(y): #Comprueba que sea par o impar
   print("\n \t - Número PAR\n")
